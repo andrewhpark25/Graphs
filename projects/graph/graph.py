@@ -99,7 +99,7 @@ class Graph:
 
         This should be done using recursion.
         """
-
+         # Chec kif vertex is visited
         if starting_vertex_id not in visited:
             # Add starting vertex to visited
             visited += [starting_vertex_id]
